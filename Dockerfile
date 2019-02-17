@@ -22,5 +22,3 @@ RUN python3 setup.py sdist bdist_wheel
 WORKDIR ./dist
 RUN pip install faiss-0.1-py3-none-any.whl
 
-ENTRYPOINT [ "python" ]
-
